@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    border: 2px solid  black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightsalmon;
+    padding: 20px 10px;
+    
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu li a:hover{
+    background-color: hotpink;
+    color: white;
+    border-radius: 20px;
+}
+.btns a{
+    padding: 10px 40px;
+    background-color: hotpink;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
